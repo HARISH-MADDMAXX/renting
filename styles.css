@@ -1,0 +1,170 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#offcanvas-body
+{
+  background-color: #875AE7;
+}
+
+.a{
+  position: relative;
+  background-image: linear-gradient(to right,#ffffff,#fff, #9603f2
+  );
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.b{
+  position: relative;
+  top: 1px;
+
+}
+.b1{
+  position: relative;
+  top: 10px;
+}
+.b12{
+  position: relative;
+}
+.b12:hover{
+  transform: translate3d(0,-5px,0);
+}
+
+.bh1{
+  position: relative;
+  visibility: hidden;
+}
+
+.b2{
+  height: 80%;
+}
+.b3{
+  height: 40%;
+}
+.b5{
+  visibility: hidden;
+  position: relative ;
+  top: 10px;
+}
+.offcanvas-body{
+  background-color: #875AE7;
+  height: 700px;
+}
+
+.c{
+  position: relative;
+}
+
+.c1{
+  height: 400px;
+  width: 300px;
+  margin: 20px;
+  background-color:#F1F5D2;
+  border-radius: 7%;
+  border-style: double;
+}
+
+.c1:hover{
+  background-color:#39393a;
+  color: #ffffff;
+	transform: translate3d(0,-20px,0);
+  font-size: x-large;
+ /* #52fff9 */
+
+
+}
+
+.c2{
+  width: 290px;
+  height: 200px;
+  position: relative;
+  right: 10px;
+  border-radius: 8%;
+  
+  
+ 
+}
+.c3{
+  position: relative;
+  top: 40px;
+  text-align: center;
+}
+
+.d{
+  background-color: #575750;
+  height: 450px;
+  width: 700px;
+}
+.f{
+  background-image: linear-gradient(to right,#ffffff,#fff, #9603f2
+  );
+  position: relative;
+  height: 100px;
+}
+.f1{
+  text-align: center;
+}
+
+.f12{
+  padding: 1%;
+}
+
+.d1{
+  height: 450px;
+  width: 700px;
+}
+
+@media(max-width:996px)
+{
+  .b2,.b3{
+    visibility: hidden;
+    display: none;
+    
+  }
+  .usr{
+    visibility: hidden;
+  }
+  .b5{
+    visibility: visible;
+  }
+  .d{
+
+    height: 350px;
+    width: 500px;
+
+  }
+  .d1{
+    height: 350px;
+    width: 500px;
+  }
+  .b12{
+    visibility: hidden;
+  }
+  .bh1{
+    visibility: visible;
+  }
+  
+
+ 
+}
+@media(max-width:580px)
+{
+  .b5{
+    height: 40px;
+  }
+  .d{
+
+    height: 210px;
+    width: 250px;
+
+  }
+  .d1{
+    height: 200px;
+    width: 250px;
+  }
+ 
+}
+
